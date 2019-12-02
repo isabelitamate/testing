@@ -1,0 +1,1033 @@
+{
+  "id": "7fe1d33b-cfc5-4929-9032-eb0f4ef655b8",
+  "version": "2.0",
+  "name": "HotelModerno",
+  "url": "https://www.hotel-moderno.com/?env=pre",
+  "tests": [{
+    "id": "36b556b6-2d20-4b83-936a-a87f06642360",
+    "name": "1habita1pers",
+    "commands": [{
+      "id": "505d3169-0b34-44d9-8f51-abfc071f0492",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hotel-moderno.com/?env=pre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7367725-f05a-4b6b-8c97-b80d1a79a4d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x1023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21419d5f-5326-4e5b-8fa6-b55b2540d69b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66eda41e-afed-4837-915d-58ac0c34f053",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce7363fc-060e-46fb-bd00-db4ec19c765d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44dfdba3-72a4-48fb-be93-acfb509ffc67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-book-btn",
+      "targets": [
+        ["css=.mi-be-book-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6befddb4-1778-46f5-acf1-d9031b8c90d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-ico-arrow-right-dark",
+      "targets": [
+        ["css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-ico-arrow-right-dark", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[2]/div/ul/li/ul/li/div/div[3]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a19d483-77b2-4c35-9741-595616b67ab1",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientName",
+      "targets": [
+        ["id=clientName", "id"],
+        ["name=clientName", "name"],
+        ["css=#clientName", "css:finder"],
+        ["xpath=//input[@id='clientName']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nombre"
+    }, {
+      "id": "ddedda9f-b08d-4304-bb23-6ea0ab4b6a91",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientSurname",
+      "targets": [
+        ["id=clientSurname", "id"],
+        ["name=clientSurname", "name"],
+        ["css=#clientSurname", "css:finder"],
+        ["xpath=//input[@id='clientSurname']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "apellido"
+    }, {
+      "id": "8816554a-6d5c-4219-b50d-c4677c78e3ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientEmail",
+      "targets": [
+        ["id=clientEmail", "id"],
+        ["name=clientEmail", "name"],
+        ["css=#clientEmail", "css:finder"],
+        ["xpath=//input[@id='clientEmail']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "email@gmail.com"
+    }, {
+      "id": "bb662c96-eae2-4e95-a41b-f44df60eb16d",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientPhone",
+      "targets": [
+        ["id=clientPhone", "id"],
+        ["name=clientPhone", "name"],
+        ["css=#clientPhone", "css:finder"],
+        ["xpath=//input[@id='clientPhone']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "7984561326"
+    }, {
+      "id": "8286c55f-8794-4deb-b1d9-eefce6d60e1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientCardNumber",
+      "targets": [
+        ["id=clientCardNumber", "id"],
+        ["name=clientCardNumber", "name"],
+        ["css=#clientCardNumber", "css:finder"],
+        ["xpath=//input[@id='clientCardNumber']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[4]/div/div/div/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "9748 4561 65"
+    }, {
+      "id": "7b139551-6d49-4f93-834a-766015ba070e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,189)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fa5604f-50dc-48a8-a75e-1d19dc04c891",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) span:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[6]/div/div[2]/ul/li[2]/div/label/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/label/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Entre las 12:00h y las 18:00h')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7c4775-a760-49b9-afb3-4321f997bd70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-checkbox > div span:nth-child(2)",
+      "targets": [
+        ["css=.mi-checkbox > div span:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div/div/div/div/label/span[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/label/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Acepto la política de cancelación/pago, política de privacidad y condiciones particulares de la reserva.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f2e1c2-6944-40b9-b8dd-50be59f8ec81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "899cbfe2-d93d-4e45-8e5f-d5bd985f8f85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e9c8f8f-15bc-48db-b00f-a57990917291",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div[2]/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8d8d2f02-bc8c-4db9-9db8-bd8a1b59cddf",
+    "name": "2habita4pers",
+    "commands": [{
+      "id": "e3e560a4-7785-4e7f-97a2-1a08c4ad896e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hotel-moderno.com/?env=pre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "380536fe-33a6-4472-9d64-aff1e42f15fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x1023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93695e22-04d7-436b-88aa-1ca5193a0a61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56b87902-5815-454b-a123-7ab4ddbdf1b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d86a14a3-262f-4d7a-9776-562ab30af543",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49775e7f-18b8-4864-b3ff-487a31dc4021",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-ico-arrow-down-dark",
+      "targets": [
+        ["css=.mi-ico-arrow-down-dark", "css:finder"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc5d77d-ccb0-4a23-a1f5-cbbe6803c241",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-multiroom-footer-add",
+      "targets": [
+        ["css=.mi-be-multiroom-footer-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir habitación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10cb0f0a-c0ec-43b3-a501-9f22d6164ee1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mi-be-multiroom-footer-add",
+      "targets": [
+        ["css=.mi-be-multiroom-footer-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir habitación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf20d6be-3eb3-4470-956a-1a24969e42f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mi-be-multiroom-footer-add",
+      "targets": [
+        ["css=.mi-be-multiroom-footer-add", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir habitación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c5e999a-287b-40f2-ae37-716dce5469f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-multiroom-footer-confirm",
+      "targets": [
+        ["css=.mi-be-multiroom-footer-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirmar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe32c0d-44cf-4fd2-8918-e47734935d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-book-btn",
+      "targets": [
+        ["css=.mi-be-book-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc241f39-9d85-414b-b7f2-535dc65ea0b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-rate-qty-select-6359--28970b0--0 > .mi-dropdown-select-field",
+      "targets": [
+        ["css=.mi-rs-rate-qty-select-6359--28970b0--0 > .mi-dropdown-select-field", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li/ul/li/div/div[3]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[3]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "452d0168-aa76-49a8-b35f-b308690365d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-dropdown-select-list > li:nth-child(2) > div",
+      "targets": [
+        ["css=.mi-dropdown-select-list > li:nth-child(2) > div", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li/ul/li/div/div[3]/div[2]/div/div[2]/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba700197-cd98-434c-858c-40375a3f2c1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-rate-qty-select-12784--67733b0--0 .mi-ico-dropdown",
+      "targets": [
+        ["css=.mi-rs-rate-qty-select-12784--67733b0--0 .mi-ico-dropdown", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li[2]/ul/li/div/div[3]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/div/div[3]/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e98a2adf-07f6-4f50-9b39-b2965f94435b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-dropdown-select-list > li:nth-child(2) > div",
+      "targets": [
+        ["css=.mi-dropdown-select-list > li:nth-child(2) > div", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li[2]/ul/li/div/div[3]/div[2]/div/div[2]/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad85a44-9cb7-4cef-8efb-454f1c3eed6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-cart-btn",
+      "targets": [
+        ["css=.mi-rs-cart-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[4]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95bfae6d-b57f-49a1-b874-6b22b166fec2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e10ca545-8858-4940-9936-335eead3a53d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-add-btn",
+      "targets": [
+        ["css=.mi-rs-add-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[2]/div/ul/li/div[2]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6676ce44-613c-4dc3-9512-94a32d7c52e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-cart-btn",
+      "targets": [
+        ["css=.mi-rs-cart-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5f6f8a-c307-4718-935a-1e417340a026",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientName",
+      "targets": [
+        ["id=clientName", "id"],
+        ["name=clientName", "name"],
+        ["css=#clientName", "css:finder"],
+        ["xpath=//input[@id='clientName']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nombre"
+    }, {
+      "id": "17476c4f-9f60-48cb-b3e1-b442c1e0771b",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientSurname",
+      "targets": [
+        ["id=clientSurname", "id"],
+        ["name=clientSurname", "name"],
+        ["css=#clientSurname", "css:finder"],
+        ["xpath=//input[@id='clientSurname']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "apellido"
+    }, {
+      "id": "3f937647-9c9d-499f-85d2-5fcc9ddcf05b",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientEmail",
+      "targets": [
+        ["id=clientEmail", "id"],
+        ["name=clientEmail", "name"],
+        ["css=#clientEmail", "css:finder"],
+        ["xpath=//input[@id='clientEmail']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "email@gmail.com"
+    }, {
+      "id": "4661c62c-ca04-4d34-9240-5e3327769279",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientPhone",
+      "targets": [
+        ["id=clientPhone", "id"],
+        ["name=clientPhone", "name"],
+        ["css=#clientPhone", "css:finder"],
+        ["xpath=//input[@id='clientPhone']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "7984561326"
+    }, {
+      "id": "6eae1e18-f2d2-4a0b-ae35-d5f73bb6ca9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientCardNumber",
+      "targets": [
+        ["id=clientCardNumber", "id"],
+        ["name=clientCardNumber", "name"],
+        ["css=#clientCardNumber", "css:finder"],
+        ["xpath=//input[@id='clientCardNumber']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[4]/div/div/div/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "9748 4561 65"
+    }]
+  }, {
+    "id": "e9c28768-e1ff-4935-ac5e-8660433d132e",
+    "name": "2habita4persNoExtra",
+    "commands": [{
+      "id": "909ca450-2fb6-48d7-bec0-7e52fa4d8eb8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hotel-moderno.com/?env=pre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4b319fb-b2d5-4385-8862-2ca1f3672a94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x1023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a143165d-ca14-4b98-936c-6d874db68b74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22439a48-f5e2-4b20-b8ec-acd2b08b8917",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e3bb86-7ac0-4092-a3ed-3c2edad9d5d1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc9215a-f55d-4fc2-a4cc-0690038e222d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-book-btn",
+      "targets": [
+        ["css=.mi-be-book-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9942dac8-27cf-427b-a6f7-75132e38ce52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-rate-qty-select-6359--28970b0--0 > .mi-dropdown-select-field",
+      "targets": [
+        ["css=.mi-rs-rate-qty-select-6359--28970b0--0 > .mi-dropdown-select-field", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li/ul/li/div/div[3]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div[3]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec7a1428-e57a-4d51-b2cf-f12a16be2874",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-dropdown-select-list > li:nth-child(2) > div",
+      "targets": [
+        ["css=.mi-dropdown-select-list > li:nth-child(2) > div", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li/ul/li/div/div[3]/div[2]/div/div[2]/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec418ae-f35f-4a52-88e5-e56f097ee711",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-rate-qty-select-12784--67733b0--0 .mi-ico-dropdown",
+      "targets": [
+        ["css=.mi-rs-rate-qty-select-12784--67733b0--0 .mi-ico-dropdown", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li[2]/ul/li/div/div[3]/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li/div/div[3]/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1c9c12-4d78-4a25-bdcf-6858c8805d54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-dropdown-select-list > li:nth-child(2) > div",
+      "targets": [
+        ["css=.mi-dropdown-select-list > li:nth-child(2) > div", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/ul/li[2]/ul/li/div/div[3]/div[2]/div/div[2]/ul/li[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49577e96-75b8-4358-ac92-7681d546f8ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-cart-btn",
+      "targets": [
+        ["css=.mi-rs-cart-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[4]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ceec86-2112-4883-b87d-fbf2889a0472",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6a0d84e-1791-4c0f-9f03-69f4d8c63c3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-cart-btn",
+      "targets": [
+        ["css=.mi-rs-cart-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "056356b1-b10f-434d-b14f-13f69813c1da",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientName",
+      "targets": [
+        ["id=clientName", "id"],
+        ["name=clientName", "name"],
+        ["css=#clientName", "css:finder"],
+        ["xpath=//input[@id='clientName']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nombre"
+    }, {
+      "id": "4226cb5b-a881-4299-93f8-bbd639d3c452",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientSurname",
+      "targets": [
+        ["id=clientSurname", "id"],
+        ["name=clientSurname", "name"],
+        ["css=#clientSurname", "css:finder"],
+        ["xpath=//input[@id='clientSurname']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "apellido"
+    }, {
+      "id": "c99d7403-1579-49ce-9f5f-d60e95f9d6c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientEmail",
+      "targets": [
+        ["id=clientEmail", "id"],
+        ["name=clientEmail", "name"],
+        ["css=#clientEmail", "css:finder"],
+        ["xpath=//input[@id='clientEmail']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "email@gmail.com"
+    }, {
+      "id": "bf45c957-0947-4e9b-8f9b-41747ac42a39",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientPhone",
+      "targets": [
+        ["id=clientPhone", "id"],
+        ["name=clientPhone", "name"],
+        ["css=#clientPhone", "css:finder"],
+        ["xpath=//input[@id='clientPhone']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "7984561326"
+    }, {
+      "id": "40dd37ae-07b4-4281-9ca7-d5bf6d3d3990",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientCardNumber",
+      "targets": [
+        ["id=clientCardNumber", "id"],
+        ["name=clientCardNumber", "name"],
+        ["css=#clientCardNumber", "css:finder"],
+        ["xpath=//input[@id='clientCardNumber']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[4]/div/div/div/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "9748 4561 65"
+    }]
+  }, {
+    "id": "3388744d-61e9-4399-92ed-23c9e16eb837",
+    "name": "1habita2pers",
+    "commands": [{
+      "id": "8fc8a76f-2d09-48a8-9373-579b3546483d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hotel-moderno.com/?env=pre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d43c26d-5a51-4eeb-8809-b87e4a1785d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1065x1023",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1675a24e-8bc0-481e-9064-71bf8d873640",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-modal-engine",
+      "targets": [
+        ["css=.btn-modal-engine", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='header-wrapper']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#motor-modal')]", "xpath:href"],
+        ["xpath=//header/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deef0d8b-4302-4bc5-ada4-9d209bb0831e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-ico-arrow-down-dark",
+      "targets": [
+        ["css=.mi-ico-arrow-down-dark", "css:finder"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d67bf0f-fc51-4ef8-9b39-6b8c9e1a726d",
+      "comment": "",
+      "command": "click",
+      "target": "css=b:nth-child(2)",
+      "targets": [
+        ["css=b:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/ul/li/div[2]/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf855192-7424-47b3-b00a-fd459174cc0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-multiroom-footer-confirm",
+      "targets": [
+        ["css=.mi-be-multiroom-footer-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/div[2]/div[2]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirmar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd0158c-f785-4f50-ad26-a7286cb17548",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-be-book-btn",
+      "targets": [
+        ["css=.mi-be-book-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='motor-modal']/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee04621a-b7e6-4295-a520-5c55bfdda92f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-rs-rate-select-room-btn",
+      "targets": [
+        ["css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-rs-rate-select-room-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[2]/div/ul/li/ul/li/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Elegir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da2dbc8-410e-4e38-b85a-6c3d516d90ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-rs-rate-select-room-btn",
+      "targets": [
+        ["css=.mi-rs-room:nth-child(1) .mi-rs-rate:nth-child(1) .mi-rs-rate-select-room-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[2]/div/ul/li/ul/li/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Elegir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8de6a59-afcd-4fc7-a625-0ed366a2b562",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e1097dc-805a-4cce-9678-0ddd202104a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-add-btn",
+      "targets": [
+        ["css=.mi-rs-add-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[2]/div/ul/li/div[2]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Añadir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "071741dd-9473-4d21-96b4-97a8561f08e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-rs-cart-btn",
+      "targets": [
+        ["css=.mi-rs-cart-btn", "css:finder"],
+        ["xpath=//section[@id='main']/div/div[2]/div/div/div/div[3]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5967331f-747f-43b2-ba37-b65c573020d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientName",
+      "targets": [
+        ["id=clientName", "id"],
+        ["name=clientName", "name"],
+        ["css=#clientName", "css:finder"],
+        ["xpath=//input[@id='clientName']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nombre"
+    }, {
+      "id": "4888118f-d885-47d3-8957-fdf8e7f05948",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientSurname",
+      "targets": [
+        ["id=clientSurname", "id"],
+        ["name=clientSurname", "name"],
+        ["css=#clientSurname", "css:finder"],
+        ["xpath=//input[@id='clientSurname']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "apellidos"
+    }, {
+      "id": "aff0ee43-9294-4fcb-914d-0a83a18e8e25",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientEmail",
+      "targets": [
+        ["id=clientEmail", "id"],
+        ["name=clientEmail", "name"],
+        ["css=#clientEmail", "css:finder"],
+        ["xpath=//input[@id='clientEmail']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "algo@gmail.com"
+    }, {
+      "id": "f998ddcf-6979-427d-9b43-bd5fe92aceb5",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientPhone",
+      "targets": [
+        ["id=clientPhone", "id"],
+        ["name=clientPhone", "name"],
+        ["css=#clientPhone", "css:finder"],
+        ["xpath=//input[@id='clientPhone']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[2]/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "789456132"
+    }, {
+      "id": "a38b95ff-f916-4fcb-a79f-f69a3e8a98b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=clientCardNumber",
+      "targets": [
+        ["id=clientCardNumber", "id"],
+        ["name=clientCardNumber", "name"],
+        ["css=#clientCardNumber", "css:finder"],
+        ["xpath=//input[@id='clientCardNumber']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[4]/div/div/div/div/div/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "9874 5614 3261 "
+    }, {
+      "id": "5d2b1606-3600-4a26-859d-9137bc0aa14a",
+      "comment": "",
+      "command": "click",
+      "target": "id=comments",
+      "targets": [
+        ["id=comments", "id"],
+        ["name=comments", "name"],
+        ["css=#comments", "css:finder"],
+        ["xpath=//textarea[@id='comments']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[5]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "416e25a5-702f-47f4-b9d9-f02da70690e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=comments",
+      "targets": [
+        ["id=comments", "id"],
+        ["name=comments", "name"],
+        ["css=#comments", "css:finder"],
+        ["xpath=//textarea[@id='comments']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[5]/div/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hola"
+    }, {
+      "id": "14ab5fbf-0d16-4103-aa4a-e81facde4c89",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) span:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[6]/div/div[2]/ul/li[2]/div/label/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/label/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Entre las 12:00h y las 18:00h')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ef25b1a-a779-42d9-a336-4ab54a78b979",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-checkbox > div .mi-checkbox-ico",
+      "targets": [
+        ["css=.mi-checkbox > div .mi-checkbox-ico", "css:finder"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div/div/div/div/label/span/i", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/label/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7151b659-61fa-487a-88ac-81dda06dcc84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19eb6105-c25e-4df1-b86d-324af26dde01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf631eb-9b8c-4234-9af9-84419e6a992e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mi-cf-form-data-btn",
+      "targets": [
+        ["css=.mi-cf-form-data-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//body[@id='hotel-moderno']/div/div/div[2]/div[2]/div[3]/div[2]/div[2]/div/form/div[7]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Realizar la reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f62199ef-952c-4b2f-aa1c-0785bd5c5d81",
+    "name": "Orden",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36b556b6-2d20-4b83-936a-a87f06642360", "3388744d-61e9-4399-92ed-23c9e16eb837", "8d8d2f02-bc8c-4db9-9db8-bd8a1b59cddf", "e9c28768-e1ff-4935-ac5e-8660433d132e"]
+  }],
+  "urls": ["https://www.hotel-moderno.com/?env=pre"],
+  "plugins": []
+}
